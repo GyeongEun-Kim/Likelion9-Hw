@@ -101,4 +101,9 @@
 
 #icon_adjusting {
   margin: 5px 5px;
+  color: blue;
+}
+
+#button_adjusting {
+  margin-bottom: 10px;
 }
