@@ -5,7 +5,7 @@
 ---
 ## ❤️과제 제출❤️
 1. `git pull upstream main` (팀장 레포의 readme.md를 가져와서 update)
-2. 과제 뚝딱뚝딱👩🏻‍💻
+2. 주차별 과제 폴더를 만든 후(week2, assi2 등...) 과제를 뚝딱뚝딱👩🏻‍💻
 3. `git add .` OR `git add filename` (staging area에 파일 올리기)
 4. `git commit -m "커밋메세지"`
 5. `git push origin main`
