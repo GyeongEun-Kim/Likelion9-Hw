@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BLOG</title>
+    <style>
+        body{text-align:center}
+    </style>
+
+</head>
+<body>
+    <h1>Blog Project</h1>
+    <div>
+        <a href="{ % url 'new' % }">write blog</a>
+    </div>
+    <div class="container">
+    {% for blog in blogs %}
+<div>
+    <h3>{{blog.title}}</h3>
+   
+    {{blog.writer}}
+    {{blog.summary}} <a href="{%url 'detail' blog.id %}">...more</a>
+    </div>
+    {% endfor %}
+    </div>
+
+</body>
+
+
+
+</html>
